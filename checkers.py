@@ -24,6 +24,5 @@ class Checkers(object):
     def showBoard(self):
         print self.board
 
-
 if __name__ == '__main__':
     Checkers().run()
