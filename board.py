@@ -17,7 +17,7 @@ class Board(object):
                 if i in (1, 2):
                     row.append(u'◯')
                 elif i in (7, 8):
-                    row.append(u'✪')
+                    row.append(u'◉')
                 else:
                     row.append(u' ')
             self.board.append(row)
